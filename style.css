@@ -8,7 +8,7 @@ body {
 }
 a,button {
     transition:all .3s ease-in-out;
-    outline:0!important;
+    outline:none!important;
 } 
 a:hover {
     text-decoration:none;
@@ -90,14 +90,14 @@ a:hover {
     color:rgba(255,255,255,.6);
 }
 .d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc .navbar-brand:hover,.d-bloc a:hover .icon-lg,.d-bloc a:hover .icon-md,.d-bloc a:hover .icon-sm,.d-bloc a:hover .icon-xl,.d-bloc h1 a:hover,.d-bloc h2 a:hover,.d-bloc h3 a:hover,.d-bloc h4 a:hover,.d-bloc h5 a:hover,.d-bloc h6 a:hover,.d-bloc p a:hover{
-    color:#fff;
+    color:rgba(255, 255, 255, 1);
 }
 .d-bloc .navbar-toggle .icon-bar {
-    background:#fff;
+    background: rgba(255, 255, 255, 1);
 }
 .d-bloc .btn-wire,.d-bloc .btn-wire:hover {
-    color:#fff;
-    border-color:#fff;
+    color:rgba(255, 255, 255, 1);
+    border-color:rgba(255, 255, 255, 1);
 }
 .d-bloc .panel { 
     color:rgba(0,0,0,.5);
@@ -115,7 +115,7 @@ a:hover {
     color:rgba(0,0,0,.6);
 }
 .d-bloc .panel .a-btn:hover {
-    color:#000;
+    color:rgba(0, 0, 0, 1);
 }
 .d-bloc .panel .btn-wire,.d-bloc .panel .btn-wire:hover {
     color:rgba(0,0,0,.7);
@@ -137,7 +137,7 @@ a:hover {
     color:rgba(0,0,0,.6);
 }
 .d-bloc .panel .a-btn:hover,.l-bloc .a-btn:hover,.l-bloc .navbar a:hover,.l-bloc .navbar-brand:hover,.l-bloc a:hover .icon-lg,.l-bloc a:hover .icon-md,.l-bloc a:hover .icon-sm,.l-bloc a:hover .icon-xl,.l-bloc h1 a:hover,.l-bloc h2 a:hover,.l-bloc h3 a:hover,.l-bloc h4 a:hover,.l-bloc h5 a:hover,.l-bloc h6 a:hover,.l-bloc p a:hover {
-    color:#000;
+    color:rgba(0, 0, 0, 1);
 }
 .l-bloc .navbar-toggle .icon-bar {
     color:rgba(0,0,0,.6);
@@ -250,9 +250,7 @@ footer .col-sm-4 a:hover {
     text-decoration:underline;
 }
 #bloc-5-cta h2 {
-    opacity:100%;
     font-weight:700;
-    background-color:rgba(165,147,99,.7);
     padding:40px 40px 40px 40px;
     max-width:500px;
     margin:auto;
@@ -290,14 +288,14 @@ footer .row .col-sm-4 {
     text-align:inherit;
 }
 .nav>li a:focus,.nav>li a:hover {
-    background:0 0;
+    background: transparent;
 }
 .navbar-toggle {
     margin:10px 10px 0 0;
     border:0;
 }
 .navbar-toggle:hover {
-    background:0 0!important;
+    background: transparent!important;
 }
 .navbar-toggle .icon-bar {
     background-color:rgba(0,0,0,.5);
@@ -368,7 +366,7 @@ nav .caret {
     border-top-right-radius:0;
 }
 .dropdown-menu .dropdown span{
-    border:4px solid #000;
+    border:4px solid black;
     border-top-color:transparent;
     border-right-color:transparent;
     border-bottom-color:transparent;
@@ -394,7 +392,7 @@ nav .caret {
     background:rgba(0,0,0,.3);
 }
 button {
-    outline:0!important;
+    outline:none!important;
 }
 .btn-rd {
     border-radius:40px;
@@ -460,7 +458,7 @@ a[data-lightbox] {
 }
 a[data-lightbox]:hover::before {
     content:"+";
-    font-family:HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial;
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial;
     font-size:32px;
     width:50px;
     height:50px;
@@ -569,7 +567,7 @@ a[data-lightbox]:hover img {
     margin:auto auto auto auto;
 }
 p {
-    font-size:14px;
+    font-size:11px;
 }
 .tight-width-whitespace {
     max-width:600px;
@@ -588,6 +586,7 @@ p {
     font-weight:700;
 }
 .social {
+    max-width: 400px;
     margin:auto auto auto auto;
 }
 h2 {
@@ -629,7 +628,7 @@ h4 {
     box-shadow:0 4px 9px rgba(0,0,0,.3);
 }
 .black-background {
-    background-color:rgba(165,147,99,.8);
+    background-color:rgba(165,147,99,.7);
     padding:40px 40px 40px 40px;
 }
 .bold-link {
@@ -702,7 +701,7 @@ h4 {
     background-image:url("img/la-chouette-agence-banniere.jpg");
 }
 .bg-presentation {
-    background-image:url("img/image-de-presentation.jpg");
+    background-image:url("img/image-de-presentation.bmp");
 }
 @media (max-width:1024px) {
     .bloc {
