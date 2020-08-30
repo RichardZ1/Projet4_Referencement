@@ -694,7 +694,6 @@ h4 {
 #bloc-4-portfolio h3 {
     font-size:1.4rem;
     line-height:2.5rem;
-    text-transform:default;
     color:rgba(0,0,0,.5)!important;
 }
 #bloc-4-portfolio p {
@@ -728,14 +727,6 @@ h4 {
     .nav-center.navbar .nav {
         max-width:100%;}
 }
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
-    .b-parallax {
-        background-attachment:scroll;}
-}
-@media only screen and (min-device-width:1024px) and (max-device-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
-    .b-parallax {
-        background-attachment:scroll;}
-}
 @media (max-width:991px) {
     .container {
         width:100%;
@@ -747,18 +738,13 @@ h4 {
         overflow-x:hidden;
         position:relative;
     }
-    .bloc {
-        padding-left:constant(safe-area-inset-left);
-        padding-right:constant(safe-area-inset-right);
-    }
     .bloc-group,.bloc-group .bloc {
         display:block;
         width:100%;
     }
     .bloc-fill-screen .fill-bloc-bottom-edge,.bloc-fill-screen .fill-bloc-top-edge {
         padding:0 20px;
-        padding-left:constant(safe-area-inset-left);
-        padding-right:constant(safe-area-inset-right);}
+    }
 }
 @media (max-width:767px) {
     .page-container {
