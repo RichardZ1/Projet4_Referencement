@@ -167,12 +167,21 @@ footer .row {
     justify-content:space-around;
 }
 @media (max-width:650px) {
-    .social {
+    .twitter, .facebook, .dribble, .instagram {
         display:grid!important;
         grid-template-rows:1fr 1fr;
         grid-template-areas:"before before" "twitter facebook" 'dribble instagram';}
 }
-.social::before {
+.twitter::before {
+    grid-area:before;
+}
+.facebook::before {
+    grid-area:before;
+}
+.dribble::before {
+    grid-area:before;
+}
+.instagram::before {
     grid-area:before;
 }
 #facebook {
@@ -585,7 +594,7 @@ p {
     font-size:16px;
     font-weight:700;
 }
-.social {
+.twitter, .facebook, .dribble, .instagram {
     max-width: 400px;
     margin:auto auto auto auto;
 }
